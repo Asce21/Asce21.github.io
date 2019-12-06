@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Contact Me";
+}
+
+<head>
+    @*metadata*@
+    <meta charset="UTF-8">
+    <meta name="description" content="My contact information and other public contributions">
+    <meta name="keywords" content="HTML,CSS,ASP.net,C#">
+    <meta name="author" content="Ashton Mulkey">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <h2 class="row text-center">@ViewBag.Message</h2>
+
+
+
+    @*
+        <p>Mobile: <a href="tel:+1-714-552-2152"><span style="text-decoration: underline;">(714) 552-2152</span></a></p>
+        <p>Email: <a href="mailto:amulkey21@yahoo.com"><span style="text-decoration: underline;">amulkey21@yahoo.com</span></a> </p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ashton-mulkey/" target="_blank"><span style="text-decoration: underline;">www.linkedin.com/in/ashton-mulkey/</span></a></p>
+        <p>Download My Resume <a href="~/Ashton's Files/Mulkey-Ashton_resume.pdf" download Resume_Ashton-Mulkey"><span style="text-decoration: underline;">here</span></a></p>
+    *@
+
+
+    <div class="row text-center">
+        <div class="col-md-6 table-bordered">
+            @*Email*@
+            <h3> Email Me at</h3>
+            <h3>amulkey21@yahoo.com</h3>
+            <a href="mailto:amulkey21@yahoo.com"><img class="img-responsive" src="~/Content/Ashton's Images/image_contacts_email.jpg" /></a>
+        </div>
+        <div class="col-md-6 table-bordered">
+            @*Phone Number*@
+            <h3 class="text-center"> Call Me at</h3>
+            <h3>(714) 552-2152</h3>
+            <a href="tel:+1-714-552-2152"><img class="img-responsive" src="~/Content/Ashton's Images/image_contacts_phone.png" /></a>
+        </div>
+    </div>
+    <div class="row text-center img-responsive">
+        <div class="col-md-6 table-bordered">
+            @*LinkediN*@
+            <h3> See my LinkedIn page at</h3>
+            <h3>www.linkedin.com/in/ashton-mulkey/</h3>
+            <a href="https://www.linkedin.com/in/ashton-mulkey/" target="_blank"><img class="img-responsive" src="~/Content/Ashton's Images/image_contacts_linkedIn.png" /></a>
+        </div>
+        <div class="col-md-6 table-bordered">
+            @*My Resume Download*@
+            <h3> Download My Resume</h3>
+            <a href="~/Content/Ashton's Files/Mulkey-Ashton_resume.pdf" download Resume_Ashton-Mulkey"><img class="img-responsive" src="~/Content/Ashton's Images/image_contacts_resume.png" /></a>
+        </div>
+    </div>
+    <div class="row text-center img-responsive">
+        <div class="col-md-6 table-bordered">
+            @*Github*@
+            <h3> Visit my GitHub page at</h3>
+            <h3>https://github.com/Asce21</h3>
+            <a href="https://github.com/Asce21"><img class="img-responsive" src="~/Content/Ashton's Images/image_contacts_GitHub.png" /></a>
+        </div>
+        <div class="col-md-6 table-bordered">
+
+        </div>
+    </div>
+</body>
+
+
